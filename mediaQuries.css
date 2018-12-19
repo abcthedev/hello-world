@@ -1,0 +1,21 @@
+/* While defining the height and width use percentages instead of pixels*/
+body{
+/*for example*/
+width:40%;
+height:40%;
+}
+/*The percentage are calculated based on th size of the window*/
+/*Create @media breakpoints-->it is used for diffrent css styles based on screen size*/
+
+@media screen and(max-width:480px)
+{
+//css /*For Mobile*/
+}
+@media screen and(max-width:780px)
+{
+//css /*for tablet*/
+}
+@media screen and(max-width:1020px)
+{
+//css /*For large desktops*/
+}
